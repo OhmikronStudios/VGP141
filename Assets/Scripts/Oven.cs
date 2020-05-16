@@ -7,6 +7,7 @@ public class Oven : MonoBehaviour
 {
     Queue<Pizza> queue = new Queue<Pizza>();
     bool baking;
+    
     Animator anim;
     float pizzaCount = 0.0f;
 
