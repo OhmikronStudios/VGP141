@@ -26,7 +26,7 @@ public class GameInformation : MonoBehaviour
         playerOutput.text = "Player Not Found";
         levelOutput.text = "";
         scoreOutput.text = "";
-        
+
         //Populating the Hashtable
         AddPlayer("Alice", 7, 11200);
         AddPlayer("Bruce", 2, 500);

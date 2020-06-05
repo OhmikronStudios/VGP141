@@ -8,6 +8,7 @@ TagManager:
   - Size
   - Rotation
   - Collectable
+  - Waypoint
   layers:
   - Default
   - TransparentFX
