@@ -37,19 +37,10 @@ public class GameManager : MonoBehaviour
                 break;
             }
         }
-        
+
         yield return new WaitForSeconds(botSpawnTimer);
         StartCoroutine(BotSpawner());
-
-            //if (deadBots.Count != 0)
-            //    {
-            //        GameObject respawningBot = deadBots.Dequeue();
-            //        respawningBot.SetActive(true);
-            //        respawningBot.transform.position = spawnPoint.position;
-            //        //aliveBots.Enqueue(respawningBot);
-            //    }
     }
-
 
     void Start()
     {
@@ -59,7 +50,6 @@ public class GameManager : MonoBehaviour
             bots.AddFirst(newBot);
             newBot.SetActive(false);
         }
-
         StartCoroutine(BotSpawner());
     }
 

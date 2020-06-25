@@ -49,8 +49,7 @@ public class PlayerL5 : MonoBehaviour
         transform.Translate(Vector3.right * thrust * strafeSpeed * Time.deltaTime);
         float sideSpeed = Input.GetAxisRaw("Horizontal");
         transform.Rotate(Vector3.up * rotSpeed * sideSpeed * Time.deltaTime);
-        
-        
+ 
     }
 
     private void Fire()

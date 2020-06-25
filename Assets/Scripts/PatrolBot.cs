@@ -142,7 +142,6 @@ public class PatrolBot : MonoBehaviour, GameManager.NotifySink
         Destroy(bullet, 3.0f);
         yield return new WaitForSeconds(3.0f);
         loaded = true;
-
     }
 
 }
